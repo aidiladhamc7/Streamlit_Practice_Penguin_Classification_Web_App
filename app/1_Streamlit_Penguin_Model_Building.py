@@ -54,3 +54,14 @@ for col in encode:
     df = pd.concat([df,dummy], axis=1)
     del df[col]
 df = df[:1]
+
+# Display user input features
+st.subheader('User Input features')
+
+if uploaded_file is not None:
+    st.write(df)
+else:
+    st.write('Awaiting CSV file to be uploaded. Currently using example input parameters (shown below).')
+    st.write(df)
+
+# Reads in saved classification model
