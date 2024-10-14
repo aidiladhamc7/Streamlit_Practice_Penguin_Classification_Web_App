@@ -1,6 +1,3 @@
-# Streamlit_Practice_Penguin_Classification_Web_App
-This project serves as my practice for Streamlit.
-
 # Welcome to My Streamlit App - *Penguin Classification Web App*
 
 I'm excited to share my project with you! This app allows you to classify penguins based on key features using machine learning models. Explore the fascinating world of penguins and see how different attributes like bill length, flipper size, and more help distinguish between species.
