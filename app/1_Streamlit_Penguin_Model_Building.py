@@ -65,3 +65,17 @@ else:
     st.write(df)
 
 # Reads in saved classification model
+load_clf = pickle.load(open("penguin_clf.pkl","rb"))
+
+# Apply model to make predictions
+prediction = load_clf.predict(df)
+prediction_proba = load_clf.predict_proba(df)
+
+st.subheader('Prediction')
+penguins_species = np.array(['Adelie','Chinstrap','Gentoo'])
+st.write(penguins_species[prediction])
+
+st.subheader('Prediction Probability')
+st.write(prediction_proba)
+
+
