@@ -4,6 +4,13 @@ I'm excited to share my project with you! This app allows you to classify pengui
 
 [Click here to go to the app!](https://adham-penguin-classification-web-app.streamlit.app/)
 
+The web app was build in Phyton using the following libraries:
+* Streamlit
+* Pandas
+* Numpy
+* Scikit-learn
+* Pickle
+
 ## About Me
 
 I'm Aidil Adham, passionate about data science and eager to solve real-world problems using data. I hold a degree in Muamalat Management and have completed Data Science training with Adnexio. Currently, I’m building my skills in coding, algorithms, and machine learning.
